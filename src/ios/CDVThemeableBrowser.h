@@ -63,7 +63,6 @@
 @class CDVThemeableBrowserViewController;
 
 @interface CDVThemeableBrowser : CDVPlugin {
-    BOOL _injectedIframeBridge;
 }
 
 @property (nonatomic, retain) CDVThemeableBrowserViewController* themeableBrowserViewController;
